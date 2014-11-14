@@ -62,7 +62,7 @@ body{
 */
 
 .navwrapper{
-position: relative;
+    position: relative;
 }
 .nav-btn,
 .nav-btn:link,
@@ -73,9 +73,7 @@ position: relative;
 	position: absolute;
 	right: 10px;
 	width: 46px;
-
 	background: transparent url("../images/icon-nav.svg") no-repeat 0 0;
-
 	text-indent: 100%;
 	white-space: nowrap;
 }
@@ -124,7 +122,6 @@ position: relative;
 .nav a:focus,
 .nav a:active {
 	background-color: #222;
-
 	color: #fff;
 }
 
@@ -164,6 +161,15 @@ button:hover {
     background: #fffabe url("http://placehold.it/1920x1920/fffabe") no-repeat center center;
     background-size: cover; 
 }
+
+.description{
+    background: #befdff url("http://placehold.it/1920x1920/befdff") no-repeat center center;
+    background-size: cover; 
+}
+
+.centered {
+    text-align: center;
+}
 /*
 .hook {
     position: absolute;
@@ -171,6 +177,11 @@ button:hover {
     max-width: 25em;
 }
 */
+
+ .footer{
+    background-color: #ccc;
+}
+
 
 @media only screen and (min-width: 25em) {
 
