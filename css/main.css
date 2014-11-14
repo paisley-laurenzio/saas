@@ -24,3 +24,149 @@ body{
     display: block;
     width: 100%;
 }
+
+.navbackground {
+    background-color: #ccc;
+}
+
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+  background-color: #466289;
+  color: #fff;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+/*
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav a {
+    display: block;
+    float: right;
+}
+*/
+
+.navwrapper{
+position: relative;
+}
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited {
+	bottom: 0;
+	height: 40px;
+	overflow: hidden;
+	position: absolute;
+	right: 10px;
+	width: 46px;
+
+	background: transparent url("../images/icon-nav.svg") no-repeat 0 0;
+
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active {
+	background-color: #000;
+	background-position: 0 -40px;
+}
+
+.nav-btn[data-state="active"] {
+	background-color: #000;
+	background-position: -46px -40px;
+}
+
+.nav {
+	background-color: #000;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    width: 10em;
+    top: 23px;
+}
+
+.nav > ul {
+	margin: 0;
+	padding: 0.8em 0;
+
+	list-style-type: none;
+	font-size: 1.25em;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+	display: block;
+	padding: 0.5em 10px;
+
+	color: #e2e2e2;
+	text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+	background-color: #222;
+
+	color: #fff;
+}
+
+.nav-top {
+	max-height: 0;
+
+	-moz-transition: all 250ms linear;
+	-o-transition: all 250ms linear;
+	-webkit-transition: all 250ms linear;
+	transition: all 250ms linear;
+}
+
+.nav-top[data-state="expanded"] {
+	max-height: 14em;
+}
+/*
+.banner {
+    text-align: center;
+    position: relative;
+}
+
+.banner-img {
+    padding-top: 56.25%;
+    background: #fffabe url("http://placehold.it/1920x1920/fffabe") no-repeat center center;
+    background-size: cover; 
+}
+
+.hook {
+    position: absolute;
+    bottom: 2rem;
+    max-width: 25em;
+}
+*/
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
