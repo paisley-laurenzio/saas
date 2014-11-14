@@ -99,6 +99,7 @@ position: relative;
     right: 0;
     width: 10em;
     top: 23px;
+    z-index: 100;
 }
 
 .nav > ul {
@@ -139,18 +140,31 @@ position: relative;
 .nav-top[data-state="expanded"] {
 	max-height: 14em;
 }
-/*
+
+button{
+  font-size: 1.5em;
+  cursor: pointer;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #cbc8c6;
+  color: white;
+}
+
+.center {
+    text-align: center;
+}
+
 .banner {
     text-align: center;
     position: relative;
-}
 
-.banner-img {
     padding-top: 56.25%;
     background: #fffabe url("http://placehold.it/1920x1920/fffabe") no-repeat center center;
     background-size: cover; 
 }
-
+/*
 .hook {
     position: absolute;
     bottom: 2rem;
