@@ -38,40 +38,34 @@
     
     <form action="thank-you.html" method="get" class="gutter-2">
           <div >
-            <label for="name">Name</label> 
-            <input id="name" class="width">
+            <label for="name">Full Name</label> 
+            <input id="name" placeholder="Paisley Laurenzio" class="width">
           </div>
 
           <div>    
             <label for="e-mail">E-mail</label> 
-            <input type="e-mail" id="e-mail" class="width">
+            <input type="e-mail" id="e-mail" placeholder="your@email.com" class="width">
           </div>
 
-          <div>
-            <label for="age">Age</label> 
-            <input type="number" min="18" max="130" class="width">
+          <div>    
+            <label for="username">Username</label> 
+            <input id="username" placeholder="Melovefood98" class="width">
           </div>
-
+        
           <div>
-            <p class="push-0"><em>Your level of awesomeness:</em></p>
-             <span class="radio"> 
-               <input id="meh" type="radio" name="awesomeness-level">      
-               <label for="meh">Meh...</label>
-             </span>
-             <span class="radio">  
-               <input id="pretty-good" type="radio" name="awesomeness-level">      
-               <label for="pretty-good">Pretty good.</label>
-             </span>
-             <span class="radio"> 
-               <input id="super" type="radio" name="awesomeness-level">      
-               <label for="super">Super!</label>
-             </span>
-         </div>    
-
+            <label for="password">Password</label> 
+            <input type="password" id="password" placeholder="New password" class="width">
+          </div>
+          
           <div>
-            <label for="message">Explain why you deserve to go:</label> 
-            <textarea id="message" class="width"></textarea>
-          </div>    
+            <label for="plan">Select your plan</label> 
+              <select id="plan" class="width">
+                <option>Free Trial</option>
+                <option>Premium $10/mo</option>
+                <option>Elite $15/mo</option>
+              </select>
+          </div>
+      
 
           <div class="center island pad-b">
             <a href="thank-you.html" class="round-button">Submit</a>
