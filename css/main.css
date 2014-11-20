@@ -153,6 +153,7 @@ body{
     box-shadow: 0 0 3px gray;
     font-size:20px;
     font-weight:normal;
+    margin: auto;
 }
 .round-button-home:hover {
     background: #262626;
@@ -176,12 +177,12 @@ button:hover {
 .banner {
     text-align: center;
     padding: 15%;
-    background: #f4f4f4 url("http://placehold.it/1920x1920/f4f4f4") no-repeat center center;
+    background: #f4f4f4 url("http://placehold.it//f4f4f4") no-repeat center center;
     background-size: cover; 
 }
 
 .description{
-    background: #befdff url("http://placehold.it/1920x1000/befdff") no-repeat center center;
+    background: #befdff url("http://placehold.it//befdff") no-repeat center center;
     background-size: cover; 
 }
 
@@ -193,6 +194,10 @@ button:hover {
 
 .features{
     max-width: 15em;
+}
+
+.features-all{
+    margin: auto;
 }
 
 .hook {
@@ -215,6 +220,7 @@ button:hover {
     box-shadow: 0 0 3px gray;
     font-size:20px;
     font-weight:normal;
+    margin: auto;
 }
 .round-button:hover {
     background: #262626;
@@ -255,6 +261,12 @@ form div{
 .width {
     width: 100%;
     max-width:20rem;
+}
+
+.widthprice {
+    max-width: 44em;
+    margin: auto;
+    
 }
 
 label{
