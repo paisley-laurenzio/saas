@@ -100,7 +100,7 @@ a:focus{
     position: absolute;
     right: .62em;
     width: 10em;
-    top: 28px;
+    top: 29px;
     z-index: 100;
 }
 
@@ -257,14 +257,9 @@ button:hover {
     background-image: url("http://placehold.it//a6fffc");
 }
 
-/*
-.stylish{display:block;width:100px;height:100px;border-radius:66px;border:4px double #ccc;font-size:20px;color:#666;line-height:95px;text-align:center;text-decoration:none;text-shadow:0 1px 0 #fff;background:#ddd}
-.stylish:hover{border:4px double #bbb;color:#aaa;text-decoration:none;background:#e6e6e6}
-*/
-
-
 form{
     margin: 0 auto;
+    max-width:35rem;
 }
 
 form div{
@@ -274,22 +269,22 @@ form div{
 
 .width {
     width: 100%;
-    max-width:20rem;
+    
 }
 
 .widthprice {
     max-width: 44em;
-    margin: auto;
+    margin: 0 auto;
     
 }
 
 label{
-  display: block;
-  vertical-align: middle;
+    display: block;
+    vertical-align: middle;
 }
 
 input+label{
-display: inline-block;
+    display: inline-block;
 }
 
 input,
@@ -351,7 +346,7 @@ select {
 .nav a:link,
 .nav a:visited {
 	display: block;
-	padding: 0.5em 10px;
+	padding: 0 10px;
 	color: #000;
 	text-decoration: none;
 }
