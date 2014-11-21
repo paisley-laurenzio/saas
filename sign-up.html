@@ -8,7 +8,7 @@
 <link href="css/typography.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
 </head>
-<body >
+<body id="sign-up">
     
     <ul class="skip-links">
       <li><a href="#nav">skip to nav</a></li>
@@ -16,13 +16,13 @@
       <li><a href="#footer">skip to footer</a></li>
     </ul>
     
-    <header class="masthead grid navbackground island">
+    <header role="banner" class="masthead grid navbackground island" id="top">
         <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unitl-1-2">
                 <p class="push-0">LOGO</p>
         </div>
-        <div class=" navwrapper unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unitl-1-2">
+        <div class=" navwrapper unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unitl-1-2" id="nav">
             <a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>
-            <nav class="nav nav-top" data-state="collapsed">
+            <nav role="navigation" class="nav nav-top" data-state="collapsed">
                 <ul>
                     <li><a class="gutter" href="index.html">Tour</a></li>
                     <li><a class="gutter" href="pricing.html">Pricing</a></li>
@@ -36,7 +36,7 @@
         <h2 class="island">Sign Up</h2>
     </div>
     
-    <form action="thank-you.html" method="get" class="gutter-2">
+    <form role="main" action="thank-you.html" method="get" class="gutter-2">
           <div>
             <label for="name">First Name</label> 
             <input id="name" placeholder="Paisley" class="width milli">
@@ -76,7 +76,7 @@
           </div>
     </form>
     
-    <footer class="footer" id="footer">
+    <footer role="contentinfo" class="footer" id="footer">
     <div class="grid grid-middle island-1-2">
         <div role="contentinfo" class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
             <p class="micro push-0 navcopyright">© 2014 You Plans <a href="#top">Top</a></p>
