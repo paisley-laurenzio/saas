@@ -319,6 +319,7 @@ select {
     width: auto;
     position: static;
     background-color: transparent;
+    overflow: visible;
 }
 
 .nav ul{
