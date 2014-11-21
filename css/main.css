@@ -184,8 +184,8 @@ button:hover {
     padding: 0;
 }
 
-.features{
-    max-width: 15em;
+.featuresfloat{
+    max-width: 20em;
     margin: 0 auto;
 }
 
