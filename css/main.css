@@ -70,7 +70,7 @@ a:focus{
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited {
-	bottom: 0;
+	bottom: -5px;
 	height: 40px;
 	overflow: hidden;
 	position: absolute;
@@ -79,6 +79,7 @@ a:focus{
 	background: transparent url("../images/icon-nav.svg") no-repeat 0 0;
 	text-indent: 100%;
 	white-space: nowrap;
+    
 }
 
 .nav-btn:hover,
@@ -99,7 +100,7 @@ a:focus{
     position: absolute;
     right: .62em;
     width: 10em;
-    top: 23px;
+    top: 28px;
     z-index: 100;
 }
 
@@ -159,12 +160,6 @@ a:focus{
     background: #262626;
 }
 
-/*button{
-  font-size: 1em;
-  cursor: pointer;
-  align-items: center;
-}*/
-
 button:hover {
   background-color: #cbc8c6;
   color: white;
@@ -194,15 +189,13 @@ button:hover {
 
 .features{
     max-width: 15em;
-}
-
-.features-all{
-    margin: auto;
+    margin: 0 auto;
 }
 
 .hook {
     max-width: 30em;
-    align-content: center;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .round-button {
@@ -220,27 +213,48 @@ button:hover {
     box-shadow: 0 0 3px gray;
     font-size:20px;
     font-weight:normal;
-    margin: auto;
+    margin: 0 auto;
 }
 .round-button:hover {
     background: #262626;
 }
 
 
-.prices1{
+.prices1,
+.prices2,
+.prices3 {
     background: #f4f4f4 url("http://placehold.it//f4f4f4") no-repeat center center;
-    background-size: cover; 
+    background-size: cover;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.prices1 .desc,
+.prices2 .desc,
+.prices3 .desc {
+    -webkit-flex-grow: 2;
+    /*-ms-flex: 2 1 auto;*/
+    flex-grow: 2;
 }
 
 .prices2{
-    background: #ffd2d2 url("http://placehold.it//ffd2d2") no-repeat center center;
-    background-size: cover; 
+    background-color: #ffd2d2;
+    background-image: url("http://placehold.it//ffd2d2");
 }
 
-
 .prices3{
-    background: #a6fffc url("http://placehold.it//a6fffc") no-repeat center center;
-    background-size: cover; 
+    background-color: #a6fffc;
+    background-image: url("http://placehold.it//a6fffc");
 }
 
 /*
@@ -304,15 +318,14 @@ select {
 }
 
 .nav{
-    text-align: center;
-    width: 20em;
-    right: 0;
-    top: 0px;
+    text-align: right;
+    width: auto;
+    position: static;
     background-color: transparent;
 }
 
 .nav ul{
-    position: none;
+    padding: 0;
 }
 .nav li{
     float: none;
@@ -331,7 +344,6 @@ select {
 }
 .nav-top{
     max-height: 5rem;
-    float: right;
     right: 0;
 }
 
