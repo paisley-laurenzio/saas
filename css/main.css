@@ -166,6 +166,11 @@ button:hover {
     text-align: center;
 }
 
+.featureimag{
+    max-width: 8rem;
+    margin: 0 auto;
+}
+
 .banner {
     text-align: center;
     padding: 15%;
