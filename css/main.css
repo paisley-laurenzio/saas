@@ -167,7 +167,7 @@ button:hover {
 }
 
 .featureimage{
-    max-width: 8em;
+    width: 8em;
     margin: 0 auto;
 }
 
@@ -367,11 +367,6 @@ select {
 .nav a:active {
 	background-color: #f4cfcf;
 }
-    
-.featureimage{
-    max-width: 8em;
-    margin: 0 auto;
-}    
 } 
 
 @media only screen and (min-width: 60em) {
@@ -381,11 +376,6 @@ select {
 
 .spacing {
     margin-right: 2rem;
-}
-
-.featureimage{
-    max-width: 8em;
-    margin: 0 auto;
 }
 }
     
