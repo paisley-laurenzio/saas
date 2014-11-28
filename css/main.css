@@ -368,6 +368,10 @@ select {
 	background-color: #f4cfcf;
 }
     
+.featureimage{
+    max-width: 8em;
+    margin: 0 auto;
+}    
 } 
 
 @media only screen and (min-width: 60em) {
@@ -379,6 +383,10 @@ select {
     margin-right: 2rem;
 }
 
+.featureimage{
+    max-width: 8em;
+    margin: 0 auto;
+}
 }
     
 
