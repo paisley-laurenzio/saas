@@ -167,7 +167,7 @@ button:hover {
 }
 
 .featureimage{
-    max-width: 8rem;
+    max-width: 8em;
     margin: 0 auto;
 }
 
@@ -262,7 +262,7 @@ button:hover {
 
 form{
     margin: 0 auto;
-    max-width:35rem;
+    max-width: 35em;
 }
 
 form div{
