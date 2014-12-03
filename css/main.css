@@ -147,14 +147,14 @@ body{
     color:#f5f5f5;
     text-align:center;
     text-decoration:none;
-    background: #464646;
+    background: #be263d;
     box-shadow: 0 0 3px gray;
     font-size:20px;
     font-weight:normal;
     margin: auto;
 }
 .round-button-home:hover {
-    background: #262626;
+    background: #741927;
 }
 
 button:hover {
@@ -212,7 +212,7 @@ button:hover {
     color:#f5f5f5;
     text-align:center;
     text-decoration:none;
-    background: #464646;
+    background: #262626;
     box-shadow: 0 0 3px gray;
     font-size:20px;
     font-weight:normal;
@@ -220,7 +220,7 @@ button:hover {
 }
 
 .round-button:hover {
-    background: #262626;
+    background: #464646;
 }
 
 
@@ -251,14 +251,18 @@ button:hover {
     flex-grow: 2;
 }
 
+.prices1{
+    background-color: #ffd2d2;
+    background-image: url("../images/nuts.jpg");
+}
 .prices2{
     background-color: #ffd2d2;
-    background-image: url("http://placehold.it//ffd2d2");
+    background-image: url("../images/berry.jpg");
 }
 
 .prices3{
     background-color: #a6fffc;
-    background-image: url("http://placehold.it//a6fffc");
+    background-image: url("../images/parsly.jpg");
 }
 
 form{
