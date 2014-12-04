@@ -253,6 +253,7 @@ h2,h3 {
 
 .pricetext{
     color: white;
+    font-weight: 100;
 }
 
 .prices1,
@@ -353,7 +354,12 @@ select {
     
 .spacing{
     margin-right: 2rem;
+    margin-left: 2rem;
     color: white;
+    font-weight: 100;
+}
+.weight {
+    font-weight: 100;
 }
 
 .nav{
