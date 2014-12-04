@@ -40,7 +40,8 @@ body{
 }
 
 .logo{
-    max-height: 3em;
+    max-height: 3.5em;
+    
 }
 
 .navbackground {
@@ -249,6 +250,10 @@ h2,h3 {
     background: #464646;
     color: white;
     padding: .5em 1em;
+}
+
+.pricetext{
+    color: white;
 }
 
 .prices1,
