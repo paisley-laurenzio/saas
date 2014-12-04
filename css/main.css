@@ -40,8 +40,7 @@ body{
 }
 
 .logo{
-    max-height: 3.5em;
-    
+    height: 3.5em;
 }
 
 .navbackground {
@@ -75,7 +74,7 @@ body{
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited {
-	bottom: -5px;
+	bottom: 14.5px;
 	height: 40px;
 	overflow: hidden;
 	position: absolute;
@@ -104,7 +103,7 @@ body{
     position: absolute;
     right: .62em;
     width: 10em;
-    top: 29px;
+    top: 48px;
     z-index: 100;
 }
 
@@ -395,7 +394,7 @@ select {
 .nav a:link,
 .nav a:visited {
 	display: block;
-	padding: 0 10px;
+	padding: 18px 10px;
 	color: #3F3F3F;
 	text-decoration: none;
 }
