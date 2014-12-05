@@ -444,9 +444,9 @@ select {
     color: white;
 }  
     
-    .parallax {
-        background-attachment: fixed;
-    }
+.parallax {
+    background-attachment: fixed;
+}
 } 
 
 @media only screen and (min-width: 60em) {
