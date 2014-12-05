@@ -194,7 +194,6 @@ section {
 .parallax {
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-image: url("../images/banner.jpg");
 }
@@ -443,7 +442,11 @@ select {
 .nav a:active {
 	background-color: gray;
     color: white;
-}   
+}  
+    
+    .parallax {
+        background-attachment: fixed;
+    }
 } 
 
 @media only screen and (min-width: 60em) {
