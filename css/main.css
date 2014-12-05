@@ -269,6 +269,15 @@ h2,h3 {
     padding: .5em 1em;
 }
 
+.whitelogo{
+    align-content: center;  
+}
+
+.logowidth{
+    margin: 0 auto;
+    max-width: 9em;
+}
+
 .pricetext{
     color: white;
     font-weight: 100;
