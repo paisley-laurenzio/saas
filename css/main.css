@@ -177,11 +177,24 @@ button:hover {
     margin: 0 auto;
 }
 
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+section.module.parallax {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax-1 {
+  background-image: url("../images/banner.jpg");
+}
+
 .banner {
     text-align: center;
     padding: 15%;
-    background: #f4f4f4 url("../images/banner.jpg") no-repeat center center;
-    background-size: cover; 
 }
 
 .description{
@@ -341,6 +354,9 @@ select {
     background-color: rgb(194, 201, 152);
 }
 
+.weight{
+    font-weight: 100;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -358,7 +374,8 @@ select {
     color: white;
     font-weight: 100;
 }
-.weight {
+
+.weight{
     font-weight: 100;
 }
 
