@@ -41,10 +41,15 @@ body{
 
 .logo{
     height: 3.5em;
+    padding-top: .3em;
 }
 
 .navbackground {
-    background-color: rgb(194, 201, 152);
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.navbackground2{
+    background-color: rgb(239, 239, 239); 
 }
 
 .skip-links {
@@ -351,7 +356,7 @@ select {
 
 
 .footer{
-    background-color: rgb(194, 201, 152);
+    background-color: rgb(239, 239, 239);
 }
 
 .weight{
@@ -425,7 +430,8 @@ select {
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-	background-color: rgb(177, 183, 138);
+	background-color: gray;
+    color: white;
 }
 } 
 
