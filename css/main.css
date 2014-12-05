@@ -161,7 +161,7 @@ body{
     background: #be263d;
     box-shadow: 0 0 3px gray;
     font-size:20px;
-    font-weight:normal;
+    font-weight:200;
     margin: auto;
 }
 .round-button-home:hover {
@@ -240,7 +240,7 @@ section.module.parallax-1 {
     background: #262626;
     box-shadow: 0 0 3px gray;
     font-size:20px;
-    font-weight:normal;
+    font-weight:200;
     margin: 0 auto;
 }
 
