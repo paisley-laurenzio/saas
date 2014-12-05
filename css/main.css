@@ -147,6 +147,10 @@ body{
 	max-height: 14em;
 }
 
+.fontweightbanner{
+    font-weight: 200;
+}
+
 .round-button-home {
     position: relative;
     display:block;
