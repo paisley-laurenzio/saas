@@ -187,13 +187,15 @@ button:hover {
   margin: 0 auto;
 }
 
-section.module.parallax {
+section {
+    display: block;
+}
+
+.parallax {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}
-section.module.parallax-1 {
   background-image: url("../images/banner.jpg");
 }
 
