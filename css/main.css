@@ -340,6 +340,7 @@ form div{
 
 .thanks{
     background-color: rgb(194, 201, 152);
+    background-repeat: no-repeat;
     background-image: url(../images/berrythanks.jpg);
 }
 
